@@ -1,0 +1,219 @@
+body
+{
+	font-family: "Audiowide", sans-serif;
+   background: rgb(34,193,195);
+background: linear-gradient(94deg, rgba(34,193,195,1) 0%, rgba(55,8,74,1) 100%);
+}
+ h2{
+text-align: center;
+border-top:2px solid black;
+border-bottom:2px solid black;
+color: black;
+}
+h1{
+	text-align: center;
+	border-style: solid;
+	color: black;
+}
+.box
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+    background-color:transparent;
+    border: 2px solid black;
+    backdrop-filter:blur(25px);
+    border-radius: 20px;
+    
+}
+ .box button
+{
+	background-color: black;
+	color: white;
+        border-radius: 8px;
+       padding: 15px 25px;
+       width:100px;
+        border: none;
+        cursor: pointer;
+        font-family: "Sofia", sans-serif;
+}
+
+.box table{
+	padding-left: 140px;
+	padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+
+#aboutbut
+{
+    font-size: 30px;
+    cursor: pointer;
+    padding-left:5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: black;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+/* FOr library -> semester -> drop down menu*/
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.dropdown{
+    margin-bottom: 7px;
+    margin-left: 45%;
+    margin-top: 4px;
+    position: relative;
+}
+
+
+
+
+/* CARD CREATION FOR ABOUT US*/
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.titleabout {
+    color: grey;
+    font-size: 18px;
+}
+
+#buttonabout{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover,
+a:hover {
+    opacity: 0.7;
+}
+
+#nam
+{
+    padding-top: 5%;
+}
+
+#John
+{
+    border-radius: 50%;
+}
+
+.hi h2{
+	color: white;
+}

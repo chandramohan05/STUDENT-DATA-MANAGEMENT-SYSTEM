@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>STUDENT INFORMATION</title>
+	<link rel="stylesheet" type="text/css" href="student.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body>
+	<form action="cm.php" method="POST">
+		<div class="table">
+		<table align="center" >
+			<tr>
+			<td><h2>STUDENT INFORMATION</h2></td>
+			</tr>
+			<tr>
+		<td><label>NAME</label></td>
+		<td><input type="text" name="fname" placeholder="FIRST NAME"></td>
+	</tr>
+<tr>
+		<td><label>GENDER</label></td>
+		<td><select name="gen">
+		<option value="MALE">MALE</option>
+		<option value="FEMALE">FEMALE</option>
+	</select></td>
+	</tr>
+<tr>
+		<td><label>D.O.B</label></td>
+		<td><input type="date" name="dob" placeholder="D.O.B"></td>
+</tr>
+<tr>
+		<td><label>E-MAIL</label></td>
+		<td><input type="email" name="mail" placeholder="E-MAIL"></td>
+	</tr>
+	<tr>
+		<td><label>FIRST_GRADUATE</label></td>
+		<td><select name="grad">
+		<option value="YES">YES</option>
+		<option value="NO">NO</option>
+	</select></td>
+	</tr>
+	<tr>
+		<td><label>BLOOD GROUP</label></td>
+		<td><select name="BG">
+		<option value="O+">O+</option>
+		<option value="A+">A+</option>
+		<option value="B+">B+</option>
+		<option value="AB+">AB+</option>
+		<option value="A2B+">A2B+</option>
+		<option value="O-">O-</option>
+		<option value="A-">A-</option>
+		<option value="B-">B-</option>
+		<option value="AB-">AB-</option>
+		<option value="A2B-">A2B-</option>
+	</select></td>
+	</tr>
+	<tr>
+		<td><label>EMIS NUMBER</label></td>
+		<td><input type="NUMBER" name="emis" placeholder="EMIS NUMBER"></td>
+	</tr>
+	<tr>
+		<td><label>STUDENT PHNO</label></td>
+		<td><input type="NUMBER" name="sph" placeholder="STUDENT PH.NO" min="6000000000" max="9999999999"></td>
+</tr>
+<tr>
+	<td><label>PERMANENT ADDRESS</label></td>
+<td><textarea name="pa" placeholder="PERMANENT ADDRESS"></textarea></td>
+</tr>
+<tr>
+	<td><label>COMMUNICATION ADDRESS</label></td>
+<td><textarea name="ca" placeholder="COMMUNICATION ADDRESS"></textarea><br></td>
+</tr>
+	<tr>
+		<td><label>RELIGION</label></td>
+		<td><select name="grad">
+		<option value="HINDU">HINDU</option>
+		<option value="CHRISTIAN">CHRISTIAN</option>
+		<option value="MUSLIM">MUSLIM</option>
+	</select></td>
+	</tr>
+	<tr>
+	<td><label>COMMUNITY</label></td>
+	<td><select name="cas">
+		<option value="OC">OC</option>
+		<option value="BCM">BCM</option>
+		<option value="MBC">MBC</option>
+		<option value="BC">BC</option>
+		<option value="SC">SC</option>
+		<option value="ST">ST</option>
+	</select>
+</td>
+</tr>
+<tr>
+	<td><label>CASTE</label></td>
+	<td><input type="text" name="caste" placeholder="CASTE">
+	</td>
+</tr>
+<tr>
+	<td><label>NATIONALITY</label></td>
+	<td>
+		<select name="nat">
+		<option value="INDIAN">INDIAN</option>
+		<option value="OTHER">OTHER</option>
+	</select>
+	</td>
+</tr>
+<tr>
+	<td><label>STATE</label></td>
+	<td>
+		<select name="sta">
+		<option value="TN">TN</option>
+		<option value="OTHER">OTHER</option>
+	</select>
+	</td>
+</tr>
+
+<tr>
+	<td><label>AADHAR NUMBER</label></td>
+	<td><input type="NUMBER" name="ad" placeholder="AADHAR NUMBER">
+	</td>
+</tr>
+<tr>
+<td><label>ALLOTMENT NUMBER</label></td>
+	<td><input type="text" name="allot" placeholder="ALLOTMENT NUMBER">
+	</td>
+</tr>
+<tr>
+		<td><label>ADMISSION MODE</label></td>
+		<td><select name="am">
+		<option value="GOVT">GOVT</option>
+		<option value="MGMT">MGMT</option>
+	</select></td>
+	</tr>
+	<tr>
+		<td><label>LATER_ENTRY</label></td>
+		<td><select name="la">
+		<option value="YES">YES</option>
+		<option value="NO">NO</option>
+	</select></td>
+	</tr>
+	<tr>
+		<td><label>DATE OF ADMISSION</label></td>
+		<td><input type="date" name="doa" placeholder="DATE OF ADMISSION"></td>
+	</tr>
+<tr>
+		<td><label>HOSTEL TYPE</label></td>
+		<td><select name="ht">
+		<option value="PAID">PAID</option>
+		<option value="FREE">FREE</option>
+	</select></td>
+	</tr>
+	<tr>
+		<td><label>HOSTELLER</label></td>
+		<td><select name="hos">
+		<option value="YES">YES</option>
+		<option value="NO">NO</option>
+	</select></td>
+	</tr>
+	<tr>
+		<td><label>CERTIFICATE ARE SUBMITED</label></td>
+		<td><select name="ceas">
+		<option value="YES">YES</option>
+		<option value="NO">NO</option>
+	</select></td>
+	</tr>
+	<tr>
+<td><h2>STUDENT BANK INFORMATION</h2></td>
+</tr>
+	<tr>
+		<td><label>BANK USER NAME</label></td>
+		<td><input type="text" name="buname" placeholder="USER NAME"></td>
+	</tr>
+	<tr>
+		<td><label>BANK NAME</label></td>
+		<td><input type="text" name="bname" placeholder="BANK NAME"></td>
+	</tr>
+	<tr>
+		<td><label>BRANCH NAME</label></td>
+		<td><input type="text" name="brname" placeholder="BRACH NAME"></td>
+	</tr>
+	<tr>
+		<td><label>ACCOUNT NUMBER</label></td>
+		<td><input type="NUMBER" name="an" placeholder="ACCOUNT NUMBER"></td>
+	</tr>
+	<tr>
+		<td><label>IFSC CODE</label></td>
+		<td><input type="text" name="code" placeholder="IFSC CODE"></td>
+	</tr>
+	<tr>
+	<td><h2>PARENT INFORMATION</h2></td>
+</tr>
+<tr>
+		<td><label>FATHER NAME</label></td>
+		<td><input type="text" name="Faname" placeholder="FATHER NAME"></td>
+</tr>
+<tr>
+		<td><label>F WORKING SECTOR</label></td>
+	<td><select name="worksf">
+		<option value="GOVERNMENT SECTOR">GOVERNMENT SECTOR</option>
+		<option value="PRIVATE SECTOR">PRIVATE SECTOR</option>
+		<option value="OWN BUSINESS">OWN BUSINESS</option>
+		<option value="NONE">NONE</option>
+	</select></td>
+</tr>
+<tr>
+		<td><label>FATHER OCCUPATION</label></td>
+		<td><input type="text" name="faocu" placeholder="FATHER OCCUPATION"></td>
+</tr>
+<tr>
+		<td><label>FATHER PHNO</label></td>
+		<td><input type="NUMBER" name="fph" placeholder="FATHER PH.NO"></td>
+</tr>
+<tr>
+		<td><label>MOTHER NAME</label></td>
+		<td><input type="text" name="maname" placeholder="MOTHER NAME"></td>
+</tr>
+<tr>
+		<td><label>M WORKING SECTOR</label></td>
+	<td><select name="worksm">
+		<option value="GOVERNMENT SECTOR">GOVERNMENT SECTOR</option>
+		<option value="PRIVATE SECTOR">PRIVATE SECTOR</option>
+		<option value="OWN BUSINESS">OWN BUSINESS</option>
+		<option value="NONE">NONE</option>
+	</select></td>
+</tr>
+<tr>
+	<td><label>MOTHER OCCUPATION</label></td>
+		<td><input type="text" name="maocu" placeholder="MOTHER OCCUPATION"></td>
+	</tr>
+	<tr>
+		<td><label>MOTHER PHNO</label></td>
+		<td><input type="NUMBER" name="mph" placeholder="MOTHER PH.NO"></td>
+</tr>
+<tr>
+		<td><label>ORPHAN</label></td>
+		<td><select name="orp">
+		<option value="YES">YES</option>
+		<option value="NO">NO</option>
+	</select></td>
+</tr>
+<tr>
+		<td><label>GUARDIAN NAME</label></td>
+		<td><input type="text" name="guname" placeholder="GUARDIAN NAME"></td>
+</tr>
+	<tr>
+		<td><label>ANNUAL INCOME</label></td>
+		<td><input type="NUMBER" name="ain" placeholder="ANNUAL INCOME"></td>
+	</tr>
+	<tr>	
+	<td><h2>MARK INFORMATION</h2></td>
+</tr>
+		<tr>
+			<td><label>10th MARK</label></td>
+			<td><input type="NUMBER" name="10" placeholder="10th MARK"></td>
+		</tr>
+		<tr>
+			<td><label>12th MARK</label></td>
+			<td><input type="NUMBER" name="12" placeholder="12th MARK"></td>
+		</tr>
+        <tr>
+			<td><label>TAMIL MARK</label></td>
+
+			<td><input type="NUMBER" name="t12" placeholder="TAMIL MARK" min="0" max="100"></td>
+		</tr>		
+<tr>
+			<td><label>ENGLISH MARK</label></td>
+			<td><input type="NUMBER" name="e12" placeholder="ENGLISH MARK" min="0" max="100"></td>
+		</tr>
+		<tr>
+			<td><label>MATHS MARK</label></td>
+			<td><input type="NUMBER" name="m12" placeholder="MATHS MARK" min="0" max="100"></td>
+		</tr>
+		<tr>
+			<td><label>BIOLOGY(OR)COMPUTER SCIENCE MARK</label></td>
+			<td><input type="NUMBER" name="cob12" placeholder="BIO(OR)CSE MARK" min="0" max="100"></td>
+		</tr>
+		<tr>
+			<td><label>CHEMISTRY</label></td>
+			<td><input type="NUMBER" name="c12" placeholder="CHEMISTRY" min="0" max="100"></td>
+		</tr>
+<tr>
+			<td><label>PHYSICS</label></td>
+			<td><input type="NUMBER" name="P12" placeholder="PHYSICS" min="0" max="100"></td>
+		</tr>
+		<tr>
+			<td><label>CUT-OFF MARK</label></td>
+			<td><input type="NUMBER" name="com" placeholder="CUT-OFF MARK" min="0.00" max="200.00"></td>
+		</tr>
+		<div class="button">
+		<tr>
+			<td colspan="2" align="center" ><input type="submit" name="save1" value="Submit" style="font-size:20px"></td>
+		</tr>
+	</div>
+	</table>
+</div>
+</form>
+</body>
+</html>

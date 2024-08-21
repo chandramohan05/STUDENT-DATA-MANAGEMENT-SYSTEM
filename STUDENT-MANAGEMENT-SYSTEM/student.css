@@ -1,0 +1,46 @@
+body
+{
+	 background: rgb(34,193,195);
+background: linear-gradient(94deg, rgba(34,193,195,1) 0%, rgba(55,8,74,1) 100%);
+
+}
+table
+{
+	color: black;
+}
+.table h2
+{
+padding-left: 8px;
+border-left:  3px solid black;
+color: #000080;
+font-family: "Audiowide", sans-serif;
+}
+.table input
+{
+	border-radius: 5px;
+	border:  1px solid black;
+padding-left: 8px;
+height: 25px;
+}
+.table select
+{
+	border-radius: 5px;
+	padding-left: 8px;
+height: 25px;	
+}
+.table textarea
+{
+	border-radius: 5px;
+	padding-left: 8px;
+height: 25px;
+}
+
+.table label
+{
+	font-family: "Audiowide", sans-serif;
+	 
+}
+.button
+{
+	 font-family: "Sofia", sans-serif;
+}

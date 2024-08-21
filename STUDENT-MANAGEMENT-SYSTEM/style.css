@@ -1,0 +1,75 @@
+body{
+font-family: "Audiowide", sans-serif;
+  background: rgb(34,193,195);
+background: linear-gradient(94deg, rgba(34,193,195,1) 0%, rgba(55,8,74,1) 100%);
+}
+.whole{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+background-color:transparent;
+border: 2px solid black;
+backdrop-filter:blur(25px);
+border-radius: 20px;
+}
+
+.whole h1{
+text-align: center;
+border-top:2px solid black;
+border-bottom:2px solid black;
+color white;
+
+}
+.whole h3{
+	padding-top: 5px;
+	border-left: 3px solid #36454F;
+	shape-margin: 50%;
+	font-family:Andale Mono, monospace;
+	padding-left: 444px;
+}
+.whole form{
+	padding-left: 20px;
+}
+.text input{
+	height:30px;
+	width: 70%;
+	color: black;
+	border-radius: 40px;
+	border-color: black;
+	position: absolute;
+	background-color: white;
+}
+.text i{
+	padding-left: 263px;
+    top:100%;
+    transform: translateY(50%);	
+    font-size: 18px;
+    color: black;
+}
+.link{
+	padding-left: 75px;
+	padding-bottom: 20px;
+}
+
+button
+{
+	background-color: white;
+color: black;
+padding-left: 150px;
+	padding: 10px 25px;
+	font-family: "Sofia", sans-serif;
+}
+.text placeholder{
+	color: white;
+}
+h1{
+	text-align: center;
+	border-style: solid;
+	color: white;
+}
+.whole input
+{
+	color: black;
+}

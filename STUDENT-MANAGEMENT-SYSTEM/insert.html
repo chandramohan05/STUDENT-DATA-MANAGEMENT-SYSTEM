@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>insert </title>
+	<link rel="stylesheet" type="text/css" href="hiii.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body>
+	<div>
+	<b><h1>STUDENT INFORMATION COLLECTION</h1></b>
+</div>
+<div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="about.html">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    <div id="tit" style="display:block;">
+        <div id="aboutbut" onclick="openNav()">&#9776;</div>
+
+    </div>
+    <br>
+
+	<div class="box">
+	<h2>CHOOSE YOUR OPTION</h2>
+
+	<table><tr>
+ <td><button onclick="document.location='hello.html'">INSERT</button></td>
+</tr>
+<tr>
+ <td><button onclick="document.location='delete.html'">DELETE</button></td>
+</tr>
+<tr>
+ <td><button onclick="document.location='update.html'">DISPLAY</button></td>
+</tr>
+<tr>
+ <td><button onclick="document.location='search.html'">SEARCH</button></td>
+</tr>
+ </table>
+</div>
+<script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "25%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+       
+    </script>
+
+</body>
+</html>

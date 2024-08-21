@@ -1,0 +1,46 @@
+body
+{
+	font-family: "Audiowide", sans-serif;
+	 background: rgb(34,193,195);
+background: linear-gradient(94deg, rgba(34,193,195,1) 0%, rgba(55,8,74,1) 100%);
+}
+.box
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+    background-color:transparent;
+    border: 2px solid black;
+    backdrop-filter:blur(25px);
+    border-radius: 20px;
+    
+}
+ .box table
+{
+	padding-left: 100px;
+	padding-bottom: 10px;
+}
+
+
+	 .box button
+{
+	background-color: black;
+	color: white;
+        border-radius: 8px;
+       padding: 15px 25px;
+       width:100px;
+        border: none;
+        cursor: pointer;
+        font-family: "Sofia", sans-serif;
+}
+.box h2
+{
+	font-family: "Audiowide", sans-serif;
+}
+h1{
+	text-align: center;
+	border-style: solid;
+	
+}
